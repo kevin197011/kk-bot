@@ -2,7 +2,5 @@
 
 source 'https://rubygems.org'
 
-gem 'async-websocket', '~> 0.8.0'
 gem 'dotenv'
-gem 'slack-ruby-bot'
-gem 'slack-ruby-client'
+gem 'telegram-bot-ruby'
