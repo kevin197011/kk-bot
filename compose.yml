@@ -1,0 +1,7 @@
+services:
+  ruby:
+    build: .
+    container_name: ruby-app
+    volumes:
+      - .:/app
+    working_dir: /app
